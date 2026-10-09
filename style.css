@@ -11,9 +11,9 @@
 
 .paper-facts{display:flex;flex-wrap:wrap;align-items:center;gap:7px 9px;margin-top:11px;font-size:12px;line-height:1.7;color:var(--muted)}
 .paper-topic,.paper-authorship,.paper-status{display:inline-flex;align-items:center;max-width:100%;min-height:26px;padding:4px 10px;border:0;border-radius:4px;font-size:11px;line-height:1.6;font-weight:550;letter-spacing:.01em}
-.paper-topic--safety{color:#476078;background:#eef3f8}
+.paper-topic--safety{color:#3e6285;background:#eaf3fb}
 .paper-topic--discovery{color:#396655;background:#eef5f0}
-.paper-authorship{color:var(--ink);background:var(--soft);white-space:nowrap}
+.paper-authorship{color:#5b616a;background:#f1f2f3;white-space:nowrap}
 .paper-summary{max-width:78ch;margin-top:11px;font-size:14px;line-height:1.75;color:var(--muted)}
 .publications .section-intro{font-size:16px;line-height:1.6;color:var(--accent);margin-top:-8px;margin-bottom:24px}
 .publications .section-intro strong{font-weight:600}
