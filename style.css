@@ -9,14 +9,15 @@
 @media(max-width:800px){.hero{grid-template-columns:minmax(0,1fr) 155px;gap:28px;margin-left:-9px;margin-right:-9px;padding:30px 25px}h1{font-size:64px;letter-spacing:-3px}}
 @media(max-width:580px){.header{height:auto}.hero{grid-template-columns:1fr;gap:25px;margin:19px -10px 26px;padding:27px 20px}.hero h1{font-size:60px;letter-spacing:-3px}.hero .portrait{width:140px;margin:0}.research-grid{gap:25px}.section-head h2{font-size:23px}.paper{grid-template-columns:1fr;gap:10px}.paper-meta{align-items:center;flex-direction:row}.all-papers{margin-left:40px}.section-num{font-size:9px}}
 
-.paper-facts{display:flex;flex-wrap:wrap;align-items:center;gap:5px 15px;margin-top:11px;font-size:12px;line-height:1.7;color:var(--muted)}
-.paper-topic{display:inline-block;max-width:100%;padding:3px 9px;border-radius:4px;font-size:11px;line-height:1.6;font-weight:550;letter-spacing:.01em}
+.paper-facts{display:flex;flex-wrap:wrap;align-items:center;gap:7px 9px;margin-top:11px;font-size:12px;line-height:1.7;color:var(--muted)}
+.paper-topic,.paper-authorship,.paper-status{display:inline-flex;align-items:center;max-width:100%;min-height:26px;padding:3px 9px;border:1px solid transparent;border-radius:4px;font-size:11px;line-height:1.6;font-weight:550;letter-spacing:.01em}
 .paper-topic--safety{color:#476078;background:#eef3f8}
 .paper-topic--discovery{color:#396655;background:#eef5f0}
+.paper-authorship{color:#53647a;background:#f8fafc;border-color:var(--line);white-space:nowrap}
 .paper-summary{max-width:78ch;margin-top:11px;font-size:14px;line-height:1.75;color:var(--muted)}
 .publications .section-intro{font-size:16px;line-height:1.6;color:var(--accent);margin-top:-8px;margin-bottom:24px}
 .publications .section-intro strong{font-weight:600}
-.paper-status{font-size:11px;padding:1px 7px;background:var(--soft);color:var(--ink)}
+.paper-status{background:var(--soft);color:var(--ink);white-space:nowrap}
 .paper-actions{display:flex;flex-wrap:wrap;gap:22px;margin-top:12px}
 .paper-actions .paper-link{display:inline-flex;align-items:center;gap:5px;min-height:24px;margin-top:0}
 .paper-availability{margin-top:12px;font-size:12px;line-height:1.7;color:var(--muted)}
@@ -24,4 +25,4 @@
 .journal-name cite{font-style:italic}
 .journal-ranking{font-style:normal;font-size:12px;font-weight:600;color:var(--accent)}
 .journal-citation{font-size:12px;font-style:normal}
-@media(max-width:580px){.paper-facts{gap:5px 13px}.paper-actions{gap:24px}}
+@media(max-width:580px){.paper-facts{gap:7px 8px}.paper-actions{gap:24px}}
