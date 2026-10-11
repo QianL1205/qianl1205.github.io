@@ -26,3 +26,13 @@
 .journal-ranking{font-style:normal;font-size:12px;font-weight:600;color:var(--accent)}
 .journal-citation{font-size:12px;font-style:normal}
 @media(max-width:580px){.paper-facts{gap:7px 8px}.paper-actions{gap:24px}}
+
+.visitor-map{width:160px;max-width:100%;margin:0 auto 30px;text-align:center}
+.visitor-map-link{display:block;color:var(--muted);border-radius:3px}
+.visitor-map-link:hover{text-decoration:none}
+.visitor-map-title{display:block;margin-bottom:8px;font-size:10px;line-height:1.5;letter-spacing:.08em}
+.visitor-map-title>span{padding-left:3px}
+.visitor-map img{display:block;width:160px;max-width:100%;height:auto;aspect-ratio:2/1;border:0;border-radius:2px;background:#f1f3f5;filter:saturate(.25);opacity:.72;transition:opacity .18s ease,filter .18s ease}
+.visitor-map-link:hover img,.visitor-map-link:focus-visible img{filter:saturate(.65);opacity:.9}
+.visitor-map-credit{display:inline-block;margin-top:5px;color:var(--muted);font-size:9px;line-height:1.5}
+@media(prefers-reduced-motion:reduce){.visitor-map img{transition:none}}
